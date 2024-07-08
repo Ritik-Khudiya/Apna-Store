@@ -76,7 +76,7 @@
     body,html{overflow-x: hidden !important;}
     .res-hide{display: none !important;}
     .container-fluid{padding: 0px 15px !important;}
-    /* .headerWrapper .part2{max-width: 100%;flex: 0 0 100%;} */
+    
      .headersearch{position: fixed !important; top: 0px ;right: -100%; z-index: 100;width: 100% !important;height: 100% !important;background: #fff;flex-direction: column !important;align-items: flex-start !important; border: 0px !important;opacity: 0;transition: all 0.5s ease-in-out !important;} 
      .headersearch.open{opacity: 1;right: 0px;}
      .headersearch {padding: 19px 30px !important;}
@@ -90,7 +90,7 @@
   .myAccDrop svg{color: #fff !important;font-size: 30px !important;}
   .nav nav{ height: 100% !important; position: fixed; top: 0px; right: -100%; background: #f9f9f8 !important; z-index:1000;transition: all 0.3s ;opacity: 0;}
   .nav nav.open{right: 0px;opacity: 1;}
-   /* .nav ul{position: fixed; top: 15px; right: 0px;}  */
+ 
      .nav nav ul li,.dropdownAcc li{width: 100% !important; margin: 0px !important;}
     .nav nav ul li button{width: 100% !important; text-align: left !important; justify-content: flex-start !important;}
     .nav nav ul li button a{display: flex !important; align-items: center; justify-content: space-between; width:

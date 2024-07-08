@@ -278,12 +278,13 @@ const Cart = () => {
     useEffect(()=>{
         if(context.isLogin==="true")
         {
-            // getCartData("http://localhost:5000/cartSelect");
+            //  getCartData("http://localhost:5000/cartSelect");
         }
         else{
 
             navigate('/signIn');
         }
+       
         
         window.scrollTo(0,0);
     },[])

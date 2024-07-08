@@ -5,11 +5,11 @@ import Rating from '@mui/material/Rating';
 import { useState } from "react";
 import InnerImageZoom from 'react-inner-image-zoom';
 import 'react-inner-image-zoom/lib/InnerImageZoom/styles.css';
-import Product1 from '../../assests/images/Product1.jpg'
+// import Product1 from '../../assests/images/Product1.jpg'
 import Slider from "react-slick";
 import Products from "../../Components/Products/Index";
-import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined';
-import KeyboardArrowUpOutlinedIcon from '@mui/icons-material/KeyboardArrowUpOutlined';
+// import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined';
+// import KeyboardArrowUpOutlinedIcon from '@mui/icons-material/KeyboardArrowUpOutlined';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import { Button } from "bootstrap-4-react/lib/components";
 import CompareArrowsOutlinedIcon from '@mui/icons-material/CompareArrowsOutlined';
@@ -387,13 +387,13 @@ const inputreview=(name,value)=>{
           <div className="customtab">
             <ul className="list list-inline">
               <li className="list-inline-item">
-                <Button  className={`${activeTab==0&&'active'}`} onClick={()=>setActiveTab(0)}> Description</Button>
+                <Button  className={`${activeTab===0&&'active'}`} onClick={()=>setActiveTab(0)}> Description</Button>
               </li>
               <li className="list-inline-item">
-                <Button className={`${activeTab==1&&'active'}`} onClick={()=>setActiveTab(1)}>Review</Button>
+                <Button className={`${activeTab===1&&'active'}`} onClick={()=>setActiveTab(1)}>Review</Button>
               </li>
               <li className="list-inline-item">
-                <Button className={`${activeTab==2&&'active'}`} onClick={()=>setActiveTab(2)}> Other Info</Button>
+                <Button className={`${activeTab===2&&'active'}`} onClick={()=>setActiveTab(2)}> Other Info</Button>
               </li>
              
             </ul>
@@ -405,7 +405,7 @@ const inputreview=(name,value)=>{
                </div>
              }
             {
-                  activeTab==2&&
+                  activeTab===2&&
                   <div className="tabcontent">
                   <div className='table-responsive'>
                   <table className="table table-bordered">

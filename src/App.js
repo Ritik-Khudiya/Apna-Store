@@ -30,7 +30,8 @@ function App() {
 
  
   useEffect(()=>{
-    getData('http://localhost:5000/productData');
+     getData('http://localhost:5000/productData');
+ 
     // getCartData(" http://localhost:5000/cartSelect");
 
     const isLogin=localStorage.getItem('isLogin');

@@ -131,7 +131,7 @@ const Home = (props) => {
                 catArray.map((item,index)=>{
                   return(
                     <li className='list list-inline-item'> 
-                       <a  className={` text-capitalize fontsi ${activeTabIndex==index?'act':' '}`} onClick={
+                       <a  className={` text-capitalize fontsi ${activeTabIndex===index?'act':' '}`} onClick={
                         ()=>{setitems(item,index);  productRow.current.scrollLeft=0;setIsLodingProducts(true)}} >{item}</a>
                     </li>
                   )
