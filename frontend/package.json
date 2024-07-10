@@ -33,6 +33,7 @@
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
     "redux": "^5.0.1",
+    "svgo": "^2.8.0",
     "version4": "^0.1.1",
     "web-vitals": "^2.1.4"
   },
@@ -41,7 +42,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-   
   },
   "eslintConfig": {
     "extends": [
