@@ -4,7 +4,7 @@
     .cardSection .head .left{padding-left: 20px;}
 .cardSection .clearCart{font-weight: 600; font-size: 18px; margin-left: auto !important;cursor: pointer;padding: 7px 4px;
     background: #e04b4b;
-    margin-right: 10px;
+    margin-right: 9px;
     border-radius: 6px;}
 .cardSection .clearCart svg{font-size: 25px !important;}
 .delete{display: flex;
